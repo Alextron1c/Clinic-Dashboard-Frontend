@@ -1,0 +1,215 @@
+body {
+    font-family: "Manrope", "roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #dce773, white);
+    overflow: hidden;
+   
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px 0px;    
+    width: 50%;          
+    display: flex;
+    align-items: center;
+    justify-content: right;     
+}
+
+
+div.icon-div{
+    font-size: 1.4em;
+    color: black;
+    font-weight: 900;    
+    font-style: italic;
+    text-align: center;  
+    padding-right: 2%;
+}
+
+img.logo-image{    
+    padding-right: 10%;
+}
+
+
+.custom-shape-divider-bottom-1713862518 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1713862518 svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 600px;
+}
+
+.custom-shape-divider-bottom-1713862518 .shape-fill {
+    fill: #dce773;
+}
+
+
+
+.title{
+    position: relative;
+    top: -10px;
+    color: #038c7c;
+    font-size: 25px;    
+    font-weight: 900px; 
+    left: 260px; 
+}
+.title2{
+    position: relative;
+    top: -10px;
+    color: #038c7c;
+    font-size: 25px;    
+    font-weight: 900px; 
+    left: 260px; 
+}
+
+.image{
+    position: relative;
+    top: 10px;
+    left: -165px;
+}
+
+.image2{
+    position: relative;
+    top: 10px;
+    left: -220px;
+}
+
+.table-view{
+    top: -10px;
+    left: 200px;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: solid 2px;
+    border-color: #bad8db;
+}
+
+.table-view-2{   
+    top: -10px;
+    position: relative;
+    left: 200px;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: solid 2px;
+    border-color: #bad8db;
+}
+
+.button-holder {
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(50%, -50%);    
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.button-holder button {    
+    font: 1rem "Manrope";               
+    border-radius: 20px;    
+    border: solid 1px;
+    border-color: #9eaaac;
+    background-color: #038c7c;
+    color: white;    
+    margin: 20px; 
+    position: relative;
+    opacity: 0.9;
+    
+}
+
+
+button:hover {
+    opacity: 1;
+    cursor: pointer;
+    
+    }
+
+button:active{
+    background: #038c7c;
+    color: white;
+    top: +1%;
+    opacity: 0.8;
+    
+}
+
+.image-botton{
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 2.5%);   
+    
+}
+
+
+
+.label{
+    top: 14%;
+    left:250px;
+    color: black;
+    font: 1rem "Manrope";          
+    position: absolute;
+}
+.label2{
+    top: 36%;
+   left:250px;
+    color: black;
+    font: 1rem "Manrope";      
+    
+    position: absolute;
+}
+.label3{
+    top: 58.5%;
+    left:250px;
+    color:black;
+    font: 1rem "Manrope";      
+    position: absolute;
+}
+.label4{
+    top: 81%;
+    left:250px;
+    color: black;
+    font: 1rem "Manrope";      
+    position: absolute;
+
+}
+
+
+
+.log-out{    
+    font: 1rem "Manrope";     
+    color: #038c7c;
+    position: relative;
+    left: 50px;
+    top: -100px;
+    height: 20px;
+    width: 40px;
+    background: none;
+    border: none;
+}
+
+.log-out:active{
+    top: -103px;
+    background: none;
+    color: #038c7c;
+}

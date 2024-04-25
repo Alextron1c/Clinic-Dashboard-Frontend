@@ -1,0 +1,123 @@
+body {
+    font-family: "Manrope", "roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dce773;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px 0px;    
+    width: 50%;          
+    display: flex;
+    align-items: center;
+    justify-content: right;     
+}
+
+div.icon-div{
+    font-size: 1.4em;
+    color: black;
+    font-weight: 900;    
+    font-style: italic;
+    text-align: center;  
+    padding-right: 2%;
+}
+
+
+img.logo-image{    
+    padding-right: 10%;
+}
+
+img.half_image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 765px;
+    width: 500px;
+
+}
+
+div.log_in_form{
+    margin: auto;
+    margin-top: 8%;
+    margin-right: 18%;
+    height: 500px;
+    width: 400px;
+    background: transparent;
+    position: relative;
+    text-align: center;    
+    border-radius: 20px;    
+    background-color: white;
+    color: #038c7c;
+    
+}
+h2{
+    top: 20px;
+    position: relative;
+}
+
+input{
+    height: 30px;
+    margin: auto; 
+}
+
+.input-box{  
+    position: relative;
+    top: 30px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.icon{
+    position: relative;
+    top: 5px;
+}
+
+
+
+.buttom {
+    position: relative;
+    width: 30%;
+    height: 5%;
+    border-radius: 30px;
+    border: none;
+    background-color: #038c7c;
+    top: 150px;
+    margin: auto; 
+    color: white;
+}
+
+
+button:hover {
+    opacity: 0.8;
+    
+    }
+
+button:active{
+    background: #038c7c;
+    top: 152px;
+}
+
+
+.recovery{
+    position: relative;
+    top: 180px;
+    margin-left: 125px;
+    margin: auto; 
+    width: 150px;
+    
+}
+.recovery:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.recovery:active{
+    background: white;
+    top: 182px;
+   }
+
+
